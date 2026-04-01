@@ -1,0 +1,45 @@
+/* Use a CSS selector to apply style(s) to at least one HTML tag. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Create at least one id, apply it to an element, and style it. */
+#main-header {
+    background-color: #bf5700; /* UT Burnt Orange */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Create at least one class, apply it to at least two elements, and style it. */
+/* Change at least two box model properties of any tag, class, or id. (margin, padding, border, etc.) */
+.content-section {
+    background: white;
+    margin: 20px auto;       /* Box model property 1 */
+    padding: 20px;           /* Box model property 2 */
+    border-radius: 8px;      /* Box model property 3 */
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bf5700;
+    text-decoration: underline;
+}
