@@ -34,10 +34,10 @@ body {
 
 /* Centering the main content */
 .container {
-    flex: 1; /* Allows this section to grow and push the footer down */
+    flex: 1; 
     width: 100%;
     max-width: 800px;
-    margin: 40px auto; /* Centers the container */
+    margin: 40px auto; 
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -64,17 +64,14 @@ body {
     padding-bottom: 10px;
 }
 
-/* Fixing the broken image */
-.profile-pic {
+/* UT logo */
+.ut-logo {
     width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
     float: left;
     margin-right: 25px;
     margin-bottom: 15px;
-    border: 3px solid #bf5700;
-    background-color: #eee; /* Fallback color if image is missing */
+    /* Optional: adds a subtle drop shadow to make the logo pop */
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.1)); 
 }
 
 /* Link Styling */
